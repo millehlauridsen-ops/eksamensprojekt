@@ -73,7 +73,7 @@ function displayproduct(product) {
   displayProductElipses1(allproducts);
 }
 
-// #3: Display all movies as clickable images
+// #3: Display all movies as clickabe images
 function displayProductElipses(products) {
   const elipses = document.querySelector("#elipses");
 
@@ -142,9 +142,9 @@ function toggleSwitch() {
   if (!toggle) return; // no element on this page — avoid errors
 
   const heroDay =
-    'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 35%), linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url("../images/hero.png")';
+    'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 35%), linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url("./images/hero.png")';
   const heroNight =
-    'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 35%), linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url("../images/nightHero.png")';
+    'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 35%), linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url("./images/nightHero.png")';
 
   // apply initial state immediately
   //Spørgsmålstegn er ligesom en if else funktion. Så hvis den er true/checked, apply'er den koden -ellers gør den ikke
