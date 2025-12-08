@@ -333,19 +333,19 @@ input:checked + .slider:before {
 }
 
 .slide1 {
-  background-image: url("../images/moonlightwhite/billede1.png");
+  background-image: url("./images/moonlightwhite/billede1.png");
 }
 
 .slide2 {
-  background-image: url("../images/moonlightwhite/billede2.png");
+  background-image: url("./images/moonlightwhite/billede2.png");
 }
 
 .slide3 {
-  background-image: url("../images/moonlightwhite/billede3.png");
+  background-image: url("./images/moonlightwhite/billede3.png");
 }
 
 .slide4 {
-  background-image: url("../images/moonlightwhite/moonlightgave.png");
+  background-image: url("./images/moonlightwhite/moonlightgave.png");
 }
 
 .slide5 {
