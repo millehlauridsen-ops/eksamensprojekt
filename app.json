@@ -12,7 +12,7 @@
     ],
     "rating": "./images/components/stjerner.svg",
     "image": [
-      ".../images/moonlightwhite/billede1.png",
+      "./images/moonlightwhite/billede1.png",
       "./images/moonlightwhite/billede2.png",
       "./images/moonlightwhite/billede3.png",
       "./images/moonlightwhite/moonlightgave.png"
