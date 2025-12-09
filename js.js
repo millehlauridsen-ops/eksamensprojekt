@@ -139,7 +139,7 @@ function toggleSwitch() {
   const toggle = document.getElementById("toggleswitch");
 
   const hero = document.getElementById("hero");
-  if (!toggle) return; // no element on this page — avoid errors
+  if (!toggle) return; // ! stopper funktionen, hvis elementet ikke eksisterer. Det sørger for, at der ikke sker fejl -fx på produktsiden hvor #hero ikke eksisterer
 
   const heroDay =
     'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 35%), linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url("./images/hero.png")';
@@ -149,7 +149,7 @@ function toggleSwitch() {
   // apply initial state immediately
   //Spørgsmålstegn er ligesom en if else funktion. Så hvis den er true/checked, apply'er den koden -ellers gør den ikke
   const apply = (checked) => {
-    if (!hero) return;
+    if (!hero) return; // ! stopper funktionen, hvis elementet ikke eksisterer. Det sørger for, at der ikke sker fejl -fx på produktsiden hvor #hero ikke eksisterer
     hero.style.backgroundImage = checked ? heroNight : heroDay;
 
     document.documentElement.style.setProperty(
