@@ -18,7 +18,6 @@ async function getproducts() {
   displayproduct(allproducts[0]);
   displayProductElipses(allproducts);
   selectProduct(allproducts[0]);
-  showProduct(allproducts[0]);
 }
 
 function displayProductElipses1(products) {
